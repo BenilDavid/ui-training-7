@@ -1,0 +1,444 @@
+ul li {
+	text-decoration: none;
+	list-style: none;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+$green: rgb(19, 157, 70);
+.App {
+	.header {
+		padding: 25px 0;
+		display: grid;
+		justify-content: center;
+		// align-items: center;
+		.navbar {
+			width: 1200px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			.nav-links {
+				display: flex;
+				align-items: center;
+				.logo {
+					font-style: italic;
+					margin: 0 10px;
+					font-size: 2.2rem;
+					font-weight: 700;
+					span {
+						color: $green;
+					}
+				}
+				.links {
+					display: flex;
+					font-size: 1.1rem;
+					font-weight: 600;
+					li {
+						margin: 0 15px;
+					}
+				}
+			}
+			.login-signup {
+				display: flex;
+				align-items: center;
+
+				li {
+					margin: 0 15px;
+					font-size: 1.1rem;
+					font-weight: 600;
+					.sign-up {
+						font-size: 1.1rem;
+						font-weight: 600;
+						color: #fff;
+						background-color: $green;
+						border: none;
+						border-radius: 5px;
+						padding: 10px 25px;
+					}
+				}
+			}
+		}
+	}
+}
+
+.banner {
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url(../images/pexels-andrea-piacquadio-914931.jpg);
+
+	background-position: center;
+	background-size: cover;
+	height: 600px;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	// background-color: #555;
+	color: #fff;
+	.banner-container {
+		text-align: center;
+		.banner-heading {
+			font-size: 70px;
+			font-weight: 600;
+		}
+		.banner-description {
+			margin: 20px 0;
+			font-size: 20px;
+		}
+		.banner-buttons {
+			margin-top: 20px;
+			.free-account-btn {
+				margin: 0 15px;
+				font-size: 20px;
+				font-weight: 600;
+				background-color: $green;
+				border: 1px solid $green;
+				color: #fff;
+				padding: 15px 35px;
+			}
+			.how-it-works-btn {
+				margin: 0 15px;
+				font-size: 20px;
+				font-weight: 600;
+				background: transparent;
+				border: 1px solid #fff;
+				color: #fff;
+				padding: 15px 35px;
+			}
+		}
+	}
+}
+
+.why-choose-payyed {
+	display: grid;
+	justify-content: center;
+	// height: 80vh;
+	.container {
+		width: 1200px;
+		padding: 100px 0;
+		text-align: center;
+		h1 {
+			font-size: 40px;
+		}
+		p {
+			margin: 15px 0;
+			font-size: 20px;
+		}
+		.four-reasons {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr;
+			.reason-box {
+				margin: 0 10px;
+				text-align: left;
+				p {
+					color: #555;
+					font-size: 20px;
+					font-weight: 600;
+					line-height: 1.6;
+				}
+				a {
+					font-size: 20px;
+					color: $green;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}
+
+.payment-solutions {
+	// height: 80%;
+	background-color: rgb(240, 240, 240);
+
+	.container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		justify-content: center;
+		align-items: center;
+		.payment-solution-description {
+			padding: 100px 0 100px 200px;
+			display: grid;
+			justify-content: center;
+			align-items: center;
+			h1 {
+				font-size: 40px;
+			}
+			p {
+				font-size: 20px;
+				line-height: 1.6;
+				margin: 15px 0;
+			}
+			a {
+				font-size: 20px;
+				color: $green;
+				text-decoration: none;
+			}
+		}
+		.four-solutions {
+			height: 100%;
+			width: 100%;
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			grid-template-rows: repeat(2, 1fr);
+			.sol-box1 {
+				width: 100%;
+				background: url(../images/freelance.jpg);
+				background-size: cover;
+			}
+			.sol-box2 {
+				background: url(../images/shopping.jpg);
+				background-size: cover;
+			}
+			.sol-box3 {
+				background: url(../images/seller.jpg);
+				background-size: cover;
+			}
+			.sol-box4 {
+				background: url(../images/marketting.jpg);
+				background-size: cover;
+			}
+			.sol-image-box {
+				display: grid;
+				// justify-content: center;
+				align-items: flex-end;
+				.sol-name {
+					font-size: 20px;
+					padding: 10px 0;
+					text-align: center;
+					width: 100%;
+					background-color: rgba(0, 0, 0, 0.5);
+					color: #fff;
+				}
+			}
+		}
+	}
+}
+
+.do-with-payyed {
+	display: grid;
+	justify-content: center;
+	// height: 80vh;
+	.container {
+		width: 1200px;
+		padding: 100px 0;
+		text-align: center;
+		.do-with-heading {
+		}
+		.do-with-description {
+		}
+		.do-with-box-container {
+			margin: 30px 0;
+			display: grid;
+			grid-template-columns: repeat(4, 1fr);
+			.do-with-box {
+				margin: 0 10px;
+				border: 2px solid #f0f0f0;
+				.do-with-image {
+					width: 60px;
+					padding: 40px 30px;
+				}
+				.do-with-heading {
+					padding: 10px 15px;
+					font-weight: 700;
+					font-size: 20px;
+					background-color: #f0f0f0;
+				}
+			}
+		}
+	}
+	a {
+		font-size: 20px;
+		color: $green;
+		text-decoration: none;
+	}
+}
+
+.how-it-works {
+	// height: 80vh;
+	background-color: #f0f0f0;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	.container {
+		width: 1200px;
+		padding: 100px 0;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		.working-video {
+			img {
+				height: 100%;
+				width: 500px;
+			}
+		}
+		.working-description {
+			p {
+				margin-top: 20px;
+				font-size: 20px;
+			}
+			.working-points {
+				margin-top: 20px;
+				li {
+					font-size: 20px;
+					list-style: disc;
+				}
+			}
+			.free-account {
+				margin-top: 18px;
+				font-weight: 600;
+				border-radius: 5px;
+				border: 1px solid $green;
+				font-size: 20px;
+				color: $green;
+				padding: 10px 25px;
+			}
+		}
+	}
+}
+
+.what-people-say {
+	// height: 80vh;
+	display: grid;
+	justify-content: center;
+	.people-say-container {
+		padding: 100px 0;
+		width: 1200px;
+		text-align: center;
+		.people-say-heading {
+			font-size: 40px;
+		}
+		p {
+			margin-top: 10px;
+			font-size: 20px;
+		}
+		.review-box-container {
+			margin: 30px 0;
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			.review-box {
+				margin: 0 15px;
+				border-radius: 5px;
+				padding: 25px 25px;
+				box-shadow: 0 2px 10px 4px #f0f0f0;
+				.review-content {
+					font-size: 20px;
+				}
+				.reviewer-name {
+					margin-top: 15px;
+					font-size: 18px;
+					font-weight: 600;
+				}
+				.reviewer-position {
+					font-size: 17px;
+					font-weight: 600;
+					letter-spacing: -1px;
+					color: rgb(160, 160, 160);
+				}
+			}
+		}
+		a {
+			font-size: 20px;
+			text-decoration: none;
+			color: $green;
+		}
+	}
+}
+
+.customer-support {
+	// height: 70vh;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	background-color: $green;
+	.customer-support-container {
+		padding: 100px 0;
+		width: 1200px;
+		text-align: center;
+		.customer-support-heading {
+			color: #fff;
+			font-size: 40px;
+		}
+		p {
+			margin: 30px 0;
+			color: #fff;
+			font-size: 20px;
+		}
+		.find-out-more {
+			border: none;
+			border-radius: 5px;
+			padding: 15px 20px;
+			font-size: 20px;
+			font-weight: 600;
+			color: $green;
+			background-color: #fff;
+		}
+	}
+}
+
+.get-app {
+	background-color: #f0f0f0;
+	// height: 40vh;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	.get-app-container {
+		padding: 100px 0;
+		width: 1200px;
+		text-align: center;
+		.get-app-heading {
+			font-size: 40px;
+		}
+		p {
+			font-size: 20px;
+		}
+		.app-image {
+			margin-top: 20px;
+			.store {
+				height: 60px;
+				width: 360px;
+			}
+		}
+	}
+}
+
+.footer {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	.footer-container {
+		padding: 100px 0;
+		width: 1200px;
+		.footer-top {
+			display: flex;
+			justify-content: space-between;
+			.footer-links {
+				display: flex;
+				li {
+					font-size: 18px;
+					font-weight: 600;
+					margin: 0 15px;
+				}
+			}
+			.social-media-links {
+				a {
+					img {
+						height: 40px;
+						width: 40px;
+					}
+				}
+			}
+		}
+		.footer-bottom {
+			margin-top: 10px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			.copyright {
+			}
+			.bottom-links {
+				display: flex;
+				li {
+					margin: 0 15px;
+				}
+			}
+		}
+	}
+}
