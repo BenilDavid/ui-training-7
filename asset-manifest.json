@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/UI-training-7/static/css/main.09db9873.chunk.css",
+    "main.js": "/UI-training-7/static/js/main.49c1fcef.chunk.js",
+    "main.js.map": "/UI-training-7/static/js/main.49c1fcef.chunk.js.map",
+    "runtime-main.js": "/UI-training-7/static/js/runtime-main.23e958fd.js",
+    "runtime-main.js.map": "/UI-training-7/static/js/runtime-main.23e958fd.js.map",
+    "static/js/2.004b1fbd.chunk.js": "/UI-training-7/static/js/2.004b1fbd.chunk.js",
+    "static/js/2.004b1fbd.chunk.js.map": "/UI-training-7/static/js/2.004b1fbd.chunk.js.map",
+    "static/js/3.d6bbd1e4.chunk.js": "/UI-training-7/static/js/3.d6bbd1e4.chunk.js",
+    "static/js/3.d6bbd1e4.chunk.js.map": "/UI-training-7/static/js/3.d6bbd1e4.chunk.js.map",
+    "index.html": "/UI-training-7/index.html",
+    "static/css/main.09db9873.chunk.css.map": "/UI-training-7/static/css/main.09db9873.chunk.css.map",
+    "static/js/2.004b1fbd.chunk.js.LICENSE.txt": "/UI-training-7/static/js/2.004b1fbd.chunk.js.LICENSE.txt",
+    "static/media/app-store.18097891.jpg": "/UI-training-7/static/media/app-store.18097891.jpg",
+    "static/media/style.css": "/UI-training-7/static/media/shopping.55a884f6.jpg",
+    "static/media/google-play.9ceb8d5d.png": "/UI-training-7/static/media/google-play.9ceb8d5d.png",
+    "static/media/logo.6ce24c58.svg": "/UI-training-7/static/media/logo.6ce24c58.svg",
+    "static/media/video.dd81b9ab.png": "/UI-training-7/static/media/video.dd81b9ab.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.23e958fd.js",
+    "static/js/2.004b1fbd.chunk.js",
+    "static/css/main.09db9873.chunk.css",
+    "static/js/main.49c1fcef.chunk.js"
+  ]
+}
